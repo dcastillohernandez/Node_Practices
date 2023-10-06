@@ -1,0 +1,1 @@
+Crear archivo Node.js que abra el archivo solicitado y devuelva el contenido al cliente. Si algo sale mal, arroja un error 404
