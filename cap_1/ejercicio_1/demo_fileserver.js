@@ -1,7 +1,7 @@
-//una vez corriendo el servidor accedemos al url localhost:3000 + nombre del archivo con su extención
+// una vez corriendo el servidor accedemos al url localhost:3000 + nombre del archivo con su extención
 // En el siguiente ejemplo podría ser así como ejemplo:
 // path invierno.html  http://localhost:3000/invierno.html
-//path verano.html http://localhost:3000/verano.html
+// path verano.html http://localhost:3000/verano.html
 
 var http = require("http");
 var url = require("url");
