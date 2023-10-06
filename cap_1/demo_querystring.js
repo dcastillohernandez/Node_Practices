@@ -1,4 +1,7 @@
-//Cuando navegamos a la dirección xhttp://localhost:3000/?year=2017&month=julio, nos mostraría 2017 julio
+//Accedemos desde la terminal a la dirección donde tenemos el archivo 
+//Luego ejecutamos el comando node + {nombre del archivo con su extención .js}
+//ejemplo: node demo_querystring.js
+//Cuando navegamos a la dirección http://localhost:3000/?year=2017&month=julio, nos mostraría 2017 julio
 
 var http = require("http");
 var url = require("url");
