@@ -1,5 +1,5 @@
 // Una vez corriendo el servidor accedemos al url localhost:3000 + nombre del archivo con su extención
-// En el siguiente ejemplo podría ser así como ejemplo:
+// En el siguiente ejemplo podría ser así:
 // path invierno.html  http://localhost:3000/invierno.html
 // path verano.html http://localhost:3000/verano.html
 
@@ -8,7 +8,7 @@ var url = require("url");
 var fs = require("fs");
 
 http
-  .createServer(function (req, res) {
+  .createServer(function (req, res) {  
     var q = url.parse(req.url, true);
     var filename = "." + q.pathname;
     fs.readFile(filename, function (err, data) {
